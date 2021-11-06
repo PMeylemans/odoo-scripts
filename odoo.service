@@ -1,0 +1,14 @@
+[Unit]
+Description=Odoo Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=odoo
+Group=odoo
+ExecStart=/users/odoo/odoo/odoo-bin --config /users/odoo/odoo.conf --logfile /var/log/odoo/odooserver
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

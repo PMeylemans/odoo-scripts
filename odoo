@@ -1,0 +1,8 @@
+/var/log/odoo/*.log {
+	weekly
+	create 0660 odoo odoo
+	rotate 12
+	delaycompress
+	compress
+}
+
