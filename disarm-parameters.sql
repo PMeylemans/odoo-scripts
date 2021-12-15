@@ -14,6 +14,7 @@ update ir_config_parameter set value='4c6928ce-0a07-11eb-9755-000c2959505c' wher
 update ir_config_parameter set value='http://odoodebug.sirris.be' where key='web.base.url';
 update ir_config_parameter set value='DEBUG' where key='ribbon.name';
 update ir_config_parameter set value='rgba(0,255,255,.6)' where key='ribbon.background.color';
+update ir_config_parameter set value='https://crystalxxx.sirris.be/crystal11' where key='sirris_crystal_web_root';
 delete from ir_config_parameter where key='database.expiration_date';
 delete from ir_config_parameter where key='database.expiration_reason';
 delete from ir_config_parameter where key='database.enterprise_code';
