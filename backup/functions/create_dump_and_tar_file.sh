@@ -4,7 +4,7 @@
 #
 # History  :
 # 2020-01-24 Mey created
-#
+# 2022-11-04 Mey add some --exclude-table-data arguments to the backup command
 create_dump_and_tar_file (){
 
 	db_name=$1
@@ -20,8 +20,10 @@ create_dump_and_tar_file (){
 	
 	# Create the dumpfile
 	#
+	# MEY 2022-11-04 Add some --exclude-table-data arguments to the dump command
 	
-	dump_result=`pg_dump ${db_name} | gzip > ${full_dump_name}`
+	#dump_result=`pg_dump ${db_name} | gzip > ${full_dump_name}`
+	dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' | gzip > ${full_dump_name}`
 
 	# Check if the target file location exist (only the case with odoo databases)
 	# If the directory exist make tarfile with the -C option for easy restore operation
