@@ -1,0 +1,1144 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+adduser is already the newest version (3.118ubuntu5).
+adduser set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  fonts-inconsolata
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 61.4 kB of archives.
+After this operation, 109 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 fonts-inconsolata all 001.010-6build1 [61.4 kB]
+Fetched 61.4 kB in 0s (205 kB/s)
+Selecting previously unselected package fonts-inconsolata.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 77651 files and directories currently installed.)
+Preparing to unpack .../fonts-inconsolata_001.010-6build1_all.deb ...
+Unpacking fonts-inconsolata (001.010-6build1) ...
+Setting up fonts-inconsolata (001.010-6build1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  fonts-font-awesome
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 516 kB of archives.
+After this operation, 1402 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-font-awesome all 5.0.10+really4.7.0~dfsg-4.1 [516 kB]
+Fetched 516 kB in 0s (2106 kB/s)
+Selecting previously unselected package fonts-font-awesome.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 77664 files and directories currently installed.)
+Preparing to unpack .../fonts-font-awesome_5.0.10+really4.7.0~dfsg-4.1_all.deb ...
+Unpacking fonts-font-awesome (5.0.10+really4.7.0~dfsg-4.1) ...
+Setting up fonts-font-awesome (5.0.10+really4.7.0~dfsg-4.1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  fonts-roboto-unhinted
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 2376 kB of archives.
+After this operation, 6388 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 fonts-roboto-unhinted all 2:0~20170802-3 [2376 kB]
+Fetched 2376 kB in 0s (6252 kB/s)
+Selecting previously unselected package fonts-roboto-unhinted.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 77726 files and directories currently installed.)
+Preparing to unpack .../fonts-roboto-unhinted_2%3a0~20170802-3_all.deb ...
+Unpacking fonts-roboto-unhinted (2:0~20170802-3) ...
+Setting up fonts-roboto-unhinted (2:0~20170802-3) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  javascript-common libjs-jquery
+Suggested packages:
+  apache2 | lighttpd | httpd
+The following NEW packages will be installed:
+  javascript-common libjs-jquery libjs-underscore
+0 upgraded, 3 newly installed, 0 to remove and 71 not upgraded.
+Need to get 445 kB of archives.
+After this operation, 1082 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 javascript-common all 11+nmu1 [5936 B]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-jquery all 3.6.0+dfsg+~3.5.13-1 [321 kB]
+Get:3 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libjs-underscore all 1.13.2~dfsg-2 [118 kB]
+Fetched 445 kB in 0s (1872 kB/s)
+Selecting previously unselected package javascript-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 77753 files and directories currently installed.)
+Preparing to unpack .../javascript-common_11+nmu1_all.deb ...
+Unpacking javascript-common (11+nmu1) ...
+Selecting previously unselected package libjs-jquery.
+Preparing to unpack .../libjs-jquery_3.6.0+dfsg+~3.5.13-1_all.deb ...
+Unpacking libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Selecting previously unselected package libjs-underscore.
+Preparing to unpack .../libjs-underscore_1.13.2~dfsg-2_all.deb ...
+Unpacking libjs-underscore (1.13.2~dfsg-2) ...
+Setting up javascript-common (11+nmu1) ...
+Setting up libjs-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Setting up libjs-underscore (1.13.2~dfsg-2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+lsb-base is already the newest version (11.1.0ubuntu4).
+lsb-base set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  postgresql-client-15
+Suggested packages:
+  postgresql-15 postgresql-doc-15
+The following NEW packages will be installed:
+  postgresql-client postgresql-client-15
+0 upgraded, 2 newly installed, 0 to remove and 71 not upgraded.
+Need to get 1745 kB of archives.
+After this operation, 7597 kB of additional disk space will be used.
+Get:1 http://apt.postgresql.org/pub/repos/apt jammy-pgdg/main amd64 postgresql-client-15 amd64 15.1-1.pgdg22.04+1 [1677 kB]
+Get:2 http://apt.postgresql.org/pub/repos/apt jammy-pgdg/main amd64 postgresql-client all 15+246.pgdg22.04+1 [67.4 kB]
+Fetched 1745 kB in 1s (2476 kB/s)
+Selecting previously unselected package postgresql-client-15.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 77789 files and directories currently installed.)
+Preparing to unpack .../postgresql-client-15_15.1-1.pgdg22.04+1_amd64.deb ...
+Unpacking postgresql-client-15 (15.1-1.pgdg22.04+1) ...
+Selecting previously unselected package postgresql-client.
+Preparing to unpack .../postgresql-client_15+246.pgdg22.04+1_all.deb ...
+Unpacking postgresql-client (15+246.pgdg22.04+1) ...
+Setting up postgresql-client-15 (15.1-1.pgdg22.04+1) ...
+update-alternatives: using /usr/share/postgresql/15/man/man1/psql.1.gz to provide /usr/share/man/man1/psql.1.gz (psql.1.gz) in auto mode
+Setting up postgresql-client (15+246.pgdg22.04+1) ...
+Processing triggers for postgresql-common (246.pgdg22.04+1) ...
+Building PostgreSQL dictionaries from installed myspell/hunspell packages...
+Removing obsolete dictionary files:
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-babel is already the newest version (2.8.0+dfsg.1-7).
+python3-babel set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-chardet is already the newest version (4.0.0-1).
+python3-chardet set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-dateutil
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 78.4 kB of archives.
+After this operation, 330 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-dateutil all 2.8.1-6 [78.4 kB]
+Fetched 78.4 kB in 0s (507 kB/s)
+Selecting previously unselected package python3-dateutil.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78142 files and directories currently installed.)
+Preparing to unpack .../python3-dateutil_2.8.1-6_all.deb ...
+Unpacking python3-dateutil (2.8.1-6) ...
+Setting up python3-dateutil (2.8.1-6) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-decorator
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 10.3 kB of archives.
+After this operation, 44.0 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-decorator all 4.4.2-0ubuntu1 [10.3 kB]
+Fetched 10.3 kB in 0s (39.2 kB/s)
+Selecting previously unselected package python3-decorator.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78174 files and directories currently installed.)
+Preparing to unpack .../python3-decorator_4.4.2-0ubuntu1_all.deb ...
+Unpacking python3-decorator (4.4.2-0ubuntu1) ...
+Setting up python3-decorator (4.4.2-0ubuntu1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  bzip2 docutils-common libdeflate0 libgomp1 libgraphite2-3 libharfbuzz0b
+  libimagequant0 libjbig0 libjpeg-turbo8 libjpeg8 liblcms2-2 libopenjp2-7
+  libpaper-utils libpaper1 libraqm0 libtiff5 libwebp7 libwebpdemux2
+  libwebpmux3 mailcap mime-support python3-olefile python3-pil python3-roman
+  sgml-base xml-core
+Suggested packages:
+  bzip2-doc liblcms2-utils docutils-doc fonts-linuxlibertine
+  | ttf-linux-libertine texlive-lang-french texlive-latex-base
+  texlive-latex-recommended python-pil-doc sgml-base-doc debhelper
+The following NEW packages will be installed:
+  bzip2 docutils-common libdeflate0 libgomp1 libgraphite2-3 libharfbuzz0b
+  libimagequant0 libjbig0 libjpeg-turbo8 libjpeg8 liblcms2-2 libopenjp2-7
+  libpaper-utils libpaper1 libraqm0 libtiff5 libwebp7 libwebpdemux2
+  libwebpmux3 mailcap mime-support python3-docutils python3-olefile
+  python3-pil python3-roman sgml-base xml-core
+0 upgraded, 27 newly installed, 0 to remove and 71 not upgraded.
+Need to get 2654 kB of archives.
+After this operation, 9070 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 sgml-base all 1.30 [12.5 kB]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 bzip2 amd64 1.0.8-5build1 [34.8 kB]
+Get:3 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 xml-core all 0.18+nmu1 [21.6 kB]
+Get:4 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 docutils-common all 0.17.1+dfsg-2 [117 kB]
+Get:5 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libdeflate0 amd64 1.10-2 [70.9 kB]
+Get:6 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libgomp1 amd64 12.1.0-2ubuntu1~22.04 [126 kB]
+Get:7 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libgraphite2-3 amd64 1.3.14-1build2 [71.3 kB]
+Get:8 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libharfbuzz0b amd64 2.7.4-1ubuntu3.1 [352 kB]
+Get:9 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libimagequant0 amd64 2.17.0-1 [34.6 kB]
+Get:10 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg-turbo8 amd64 2.1.2-0ubuntu1 [134 kB]
+Get:11 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libjpeg8 amd64 8c-2ubuntu10 [2264 B]
+Get:12 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 liblcms2-2 amd64 2.12~rc1-2build2 [159 kB]
+Get:13 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libpaper1 amd64 1.1.28build2 [13.8 kB]
+Get:14 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libpaper-utils amd64 1.1.28build2 [8674 B]
+Get:15 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libraqm0 amd64 0.7.0-4ubuntu1 [11.7 kB]
+Get:16 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libjbig0 amd64 2.1-3.1ubuntu0.22.04.1 [29.2 kB]
+Get:17 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libwebp7 amd64 1.2.2-2 [206 kB]
+Get:18 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.3 [183 kB]
+Get:19 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libwebpdemux2 amd64 1.2.2-2 [9966 B]
+Get:20 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libwebpmux3 amd64 1.2.2-2 [20.5 kB]
+Get:21 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 mailcap all 3.70+nmu1ubuntu1 [23.8 kB]
+Get:22 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 mime-support all 3.66 [3696 B]
+Get:23 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-roman all 3.3-1 [10.6 kB]
+Get:24 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-docutils all 0.17.1+dfsg-2 [387 kB]
+Get:25 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-olefile all 0.46-3 [33.8 kB]
+Get:26 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libopenjp2-7 amd64 2.4.0-6 [158 kB]
+Get:27 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-pil amd64 9.0.1-1ubuntu0.1 [419 kB]
+Preconfiguring packages ...
+Fetched 2654 kB in 1s (3238 kB/s)
+Selecting previously unselected package sgml-base.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78184 files and directories currently installed.)
+Preparing to unpack .../00-sgml-base_1.30_all.deb ...
+Unpacking sgml-base (1.30) ...
+Selecting previously unselected package bzip2.
+Preparing to unpack .../01-bzip2_1.0.8-5build1_amd64.deb ...
+Unpacking bzip2 (1.0.8-5build1) ...
+Selecting previously unselected package xml-core.
+Preparing to unpack .../02-xml-core_0.18+nmu1_all.deb ...
+Unpacking xml-core (0.18+nmu1) ...
+Selecting previously unselected package docutils-common.
+Preparing to unpack .../03-docutils-common_0.17.1+dfsg-2_all.deb ...
+Unpacking docutils-common (0.17.1+dfsg-2) ...
+Selecting previously unselected package libdeflate0:amd64.
+Preparing to unpack .../04-libdeflate0_1.10-2_amd64.deb ...
+Unpacking libdeflate0:amd64 (1.10-2) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../05-libgomp1_12.1.0-2ubuntu1~22.04_amd64.deb ...
+Unpacking libgomp1:amd64 (12.1.0-2ubuntu1~22.04) ...
+Selecting previously unselected package libgraphite2-3:amd64.
+Preparing to unpack .../06-libgraphite2-3_1.3.14-1build2_amd64.deb ...
+Unpacking libgraphite2-3:amd64 (1.3.14-1build2) ...
+Selecting previously unselected package libharfbuzz0b:amd64.
+Preparing to unpack .../07-libharfbuzz0b_2.7.4-1ubuntu3.1_amd64.deb ...
+Unpacking libharfbuzz0b:amd64 (2.7.4-1ubuntu3.1) ...
+Selecting previously unselected package libimagequant0:amd64.
+Preparing to unpack .../08-libimagequant0_2.17.0-1_amd64.deb ...
+Unpacking libimagequant0:amd64 (2.17.0-1) ...
+Selecting previously unselected package libjpeg-turbo8:amd64.
+Preparing to unpack .../09-libjpeg-turbo8_2.1.2-0ubuntu1_amd64.deb ...
+Unpacking libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Selecting previously unselected package libjpeg8:amd64.
+Preparing to unpack .../10-libjpeg8_8c-2ubuntu10_amd64.deb ...
+Unpacking libjpeg8:amd64 (8c-2ubuntu10) ...
+Selecting previously unselected package liblcms2-2:amd64.
+Preparing to unpack .../11-liblcms2-2_2.12~rc1-2build2_amd64.deb ...
+Unpacking liblcms2-2:amd64 (2.12~rc1-2build2) ...
+Selecting previously unselected package libpaper1:amd64.
+Preparing to unpack .../12-libpaper1_1.1.28build2_amd64.deb ...
+Unpacking libpaper1:amd64 (1.1.28build2) ...
+Selecting previously unselected package libpaper-utils.
+Preparing to unpack .../13-libpaper-utils_1.1.28build2_amd64.deb ...
+Unpacking libpaper-utils (1.1.28build2) ...
+Selecting previously unselected package libraqm0:amd64.
+Preparing to unpack .../14-libraqm0_0.7.0-4ubuntu1_amd64.deb ...
+Unpacking libraqm0:amd64 (0.7.0-4ubuntu1) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../15-libjbig0_2.1-3.1ubuntu0.22.04.1_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Selecting previously unselected package libwebp7:amd64.
+Preparing to unpack .../16-libwebp7_1.2.2-2_amd64.deb ...
+Unpacking libwebp7:amd64 (1.2.2-2) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../17-libtiff5_4.3.0-6ubuntu0.3_amd64.deb ...
+Unpacking libtiff5:amd64 (4.3.0-6ubuntu0.3) ...
+Selecting previously unselected package libwebpdemux2:amd64.
+Preparing to unpack .../18-libwebpdemux2_1.2.2-2_amd64.deb ...
+Unpacking libwebpdemux2:amd64 (1.2.2-2) ...
+Selecting previously unselected package libwebpmux3:amd64.
+Preparing to unpack .../19-libwebpmux3_1.2.2-2_amd64.deb ...
+Unpacking libwebpmux3:amd64 (1.2.2-2) ...
+Selecting previously unselected package mailcap.
+Preparing to unpack .../20-mailcap_3.70+nmu1ubuntu1_all.deb ...
+Unpacking mailcap (3.70+nmu1ubuntu1) ...
+Selecting previously unselected package mime-support.
+Preparing to unpack .../21-mime-support_3.66_all.deb ...
+Unpacking mime-support (3.66) ...
+Selecting previously unselected package python3-roman.
+Preparing to unpack .../22-python3-roman_3.3-1_all.deb ...
+Unpacking python3-roman (3.3-1) ...
+Selecting previously unselected package python3-docutils.
+Preparing to unpack .../23-python3-docutils_0.17.1+dfsg-2_all.deb ...
+Unpacking python3-docutils (0.17.1+dfsg-2) ...
+Selecting previously unselected package python3-olefile.
+Preparing to unpack .../24-python3-olefile_0.46-3_all.deb ...
+Unpacking python3-olefile (0.46-3) ...
+Selecting previously unselected package libopenjp2-7:amd64.
+Preparing to unpack .../25-libopenjp2-7_2.4.0-6_amd64.deb ...
+Unpacking libopenjp2-7:amd64 (2.4.0-6) ...
+Selecting previously unselected package python3-pil:amd64.
+Preparing to unpack .../26-python3-pil_9.0.1-1ubuntu0.1_amd64.deb ...
+Unpacking python3-pil:amd64 (9.0.1-1ubuntu0.1) ...
+Setting up libgraphite2-3:amd64 (1.3.14-1build2) ...
+Setting up liblcms2-2:amd64 (2.12~rc1-2build2) ...
+Setting up libpaper1:amd64 (1.1.28build2) ...
+
+Creating config file /etc/papersize with new version
+Setting up python3-olefile (0.46-3) ...
+Setting up libdeflate0:amd64 (1.10-2) ...
+Setting up libpaper-utils (1.1.28build2) ...
+Setting up libgomp1:amd64 (12.1.0-2ubuntu1~22.04) ...
+Setting up bzip2 (1.0.8-5build1) ...
+Setting up libjbig0:amd64 (2.1-3.1ubuntu0.22.04.1) ...
+Setting up python3-roman (3.3-1) ...
+Setting up libimagequant0:amd64 (2.17.0-1) ...
+Setting up libjpeg-turbo8:amd64 (2.1.2-0ubuntu1) ...
+Setting up libwebp7:amd64 (1.2.2-2) ...
+Setting up libopenjp2-7:amd64 (2.4.0-6) ...
+Setting up libharfbuzz0b:amd64 (2.7.4-1ubuntu3.1) ...
+Setting up sgml-base (1.30) ...
+Setting up libwebpmux3:amd64 (1.2.2-2) ...
+Setting up mailcap (3.70+nmu1ubuntu1) ...
+Setting up libjpeg8:amd64 (8c-2ubuntu10) ...
+Setting up mime-support (3.66) ...
+Setting up libwebpdemux2:amd64 (1.2.2-2) ...
+Setting up libraqm0:amd64 (0.7.0-4ubuntu1) ...
+Setting up xml-core (0.18+nmu1) ...
+Setting up libtiff5:amd64 (4.3.0-6ubuntu0.3) ...
+Setting up python3-pil:amd64 (9.0.1-1ubuntu0.1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for shared-mime-info (2.1-2) ...
+Processing triggers for sgml-base (1.30) ...
+Setting up docutils-common (0.17.1+dfsg-2) ...
+Processing triggers for sgml-base (1.30) ...
+Setting up python3-docutils (0.17.1+dfsg-2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  python3-sgmllib3k
+The following NEW packages will be installed:
+  python3-feedparser python3-sgmllib3k
+0 upgraded, 2 newly installed, 0 to remove and 71 not upgraded.
+Need to get 54.6 kB of archives.
+After this operation, 307 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-sgmllib3k all 1.0.0-3 [8240 B]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-feedparser all 6.0.8-1 [46.4 kB]
+Fetched 54.6 kB in 1s (105 kB/s)
+Selecting previously unselected package python3-sgmllib3k.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78803 files and directories currently installed.)
+Preparing to unpack .../python3-sgmllib3k_1.0.0-3_all.deb ...
+Unpacking python3-sgmllib3k (1.0.0-3) ...
+Selecting previously unselected package python3-feedparser.
+Preparing to unpack .../python3-feedparser_6.0.8-1_all.deb ...
+Unpacking python3-feedparser (6.0.8-1) ...
+Setting up python3-sgmllib3k (1.0.0-3) ...
+Setting up python3-feedparser (6.0.8-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-freezegun
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 14.7 kB of archives.
+After this operation, 64.5 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-freezegun all 1.1.0-1 [14.7 kB]
+Fetched 14.7 kB in 0s (42.0 kB/s)
+Selecting previously unselected package python3-freezegun.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78855 files and directories currently installed.)
+Preparing to unpack .../python3-freezegun_1.1.0-1_all.deb ...
+Unpacking python3-freezegun (1.1.0-1) ...
+Setting up python3-freezegun (1.1.0-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-html2text
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 21.1 kB of archives.
+After this operation, 99.3 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-html2text all 2020.1.16-1 [21.1 kB]
+Fetched 21.1 kB in 0s (53.6 kB/s)
+Selecting previously unselected package python3-html2text.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78870 files and directories currently installed.)
+Preparing to unpack .../python3-html2text_2020.1.16-1_all.deb ...
+Unpacking python3-html2text (2020.1.16-1) ...
+Setting up python3-html2text (2020.1.16-1) ...
+update-alternatives: using /usr/bin/html2markdown.py3 to provide /usr/bin/html2markdown (html2markdown) in auto mode
+Processing triggers for man-db (2.10.2-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-pil is already the newest version (9.0.1-1ubuntu0.1).
+python3-pil set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-jinja2 is already the newest version (3.0.3-1).
+python3-jinja2 set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  libsass1
+The following NEW packages will be installed:
+  libsass1 python3-libsass
+0 upgraded, 2 newly installed, 0 to remove and 71 not upgraded.
+Need to get 826 kB of archives.
+After this operation, 3365 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libsass1 amd64 3.6.5-1ubuntu1 [773 kB]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-libsass amd64 0.20.1-3build1 [53.2 kB]
+Fetched 826 kB in 1s (774 kB/s)
+Selecting previously unselected package libsass1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78891 files and directories currently installed.)
+Preparing to unpack .../libsass1_3.6.5-1ubuntu1_amd64.deb ...
+Unpacking libsass1:amd64 (3.6.5-1ubuntu1) ...
+Selecting previously unselected package python3-libsass.
+Preparing to unpack .../python3-libsass_0.20.1-3build1_amd64.deb ...
+Unpacking python3-libsass (0.20.1-3build1) ...
+Setting up libsass1:amd64 (3.6.5-1ubuntu1) ...
+Setting up python3-libsass (0.20.1-3build1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3) ...
+Processing triggers for man-db (2.10.2-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  python3-bs4 python3-html5lib python3-soupsieve python3-webencodings
+Suggested packages:
+  python3-genshi python-lxml-doc
+The following NEW packages will be installed:
+  python3-bs4 python3-html5lib python3-lxml python3-soupsieve
+  python3-webencodings
+0 upgraded, 5 newly installed, 0 to remove and 71 not upgraded.
+Need to get 1361 kB of archives.
+After this operation, 5317 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-soupsieve all 2.3.1-1 [33.0 kB]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-bs4 all 4.10.0-2 [79.1 kB]
+Get:3 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-webencodings all 0.5.1-4 [11.8 kB]
+Get:4 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-html5lib all 1.1-3 [87.0 kB]
+Get:5 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-lxml amd64 4.8.0-1build1 [1150 kB]
+Fetched 1361 kB in 0s (3911 kB/s)
+Selecting previously unselected package python3-soupsieve.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 78920 files and directories currently installed.)
+Preparing to unpack .../python3-soupsieve_2.3.1-1_all.deb ...
+Unpacking python3-soupsieve (2.3.1-1) ...
+Selecting previously unselected package python3-bs4.
+Preparing to unpack .../python3-bs4_4.10.0-2_all.deb ...
+Unpacking python3-bs4 (4.10.0-2) ...
+Selecting previously unselected package python3-webencodings.
+Preparing to unpack .../python3-webencodings_0.5.1-4_all.deb ...
+Unpacking python3-webencodings (0.5.1-4) ...
+Selecting previously unselected package python3-html5lib.
+Preparing to unpack .../python3-html5lib_1.1-3_all.deb ...
+Unpacking python3-html5lib (1.1-3) ...
+Selecting previously unselected package python3-lxml:amd64.
+Preparing to unpack .../python3-lxml_4.8.0-1build1_amd64.deb ...
+Unpacking python3-lxml:amd64 (4.8.0-1build1) ...
+Setting up python3-webencodings (0.5.1-4) ...
+Setting up python3-html5lib (1.1-3) ...
+Setting up python3-lxml:amd64 (4.8.0-1build1) ...
+Setting up python3-soupsieve (2.3.1-1) ...
+Setting up python3-bs4 (4.10.0-2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+Suggested packages:
+  python3-beaker python-mako-doc
+The following NEW packages will be installed:
+  python3-mako
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 60.5 kB of archives.
+After this operation, 330 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-mako all 1.1.3+ds1-2ubuntu0.1 [60.5 kB]
+Fetched 60.5 kB in 1s (101 kB/s)
+Selecting previously unselected package python3-mako.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79103 files and directories currently installed.)
+Preparing to unpack .../python3-mako_1.1.3+ds1-2ubuntu0.1_all.deb ...
+Unpacking python3-mako (1.1.3+ds1-2ubuntu0.1) ...
+Setting up python3-mako (1.1.3+ds1-2ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  python3-pbr
+Suggested packages:
+  python-mock-doc
+The following NEW packages will be installed:
+  python3-mock python3-pbr
+0 upgraded, 2 newly installed, 0 to remove and 71 not upgraded.
+Need to get 127 kB of archives.
+After this operation, 754 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-pbr all 5.8.0-0ubuntu1 [66.5 kB]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-mock all 4.0.3-3 [60.4 kB]
+Fetched 127 kB in 0s (688 kB/s)
+Selecting previously unselected package python3-pbr.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79144 files and directories currently installed.)
+Preparing to unpack .../python3-pbr_5.8.0-0ubuntu1_all.deb ...
+Unpacking python3-pbr (5.8.0-0ubuntu1) ...
+Selecting previously unselected package python3-mock.
+Preparing to unpack .../python3-mock_4.0.3-3_all.deb ...
+Unpacking python3-mock (4.0.3-3) ...
+Setting up python3-pbr (5.8.0-0ubuntu1) ...
+Setting up python3-mock (4.0.3-3) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-passlib
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 368 kB of archives.
+After this operation, 2096 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-passlib all 1.7.4-1 [368 kB]
+Fetched 368 kB in 1s (443 kB/s)
+Selecting previously unselected package python3-passlib.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79249 files and directories currently installed.)
+Preparing to unpack .../python3-passlib_1.7.4-1_all.deb ...
+Unpacking python3-passlib (1.7.4-1) ...
+Setting up python3-passlib (1.7.4-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+Suggested packages:
+  python-polib-doc
+The following NEW packages will be installed:
+  python3-polib
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 20.8 kB of archives.
+After this operation, 95.2 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-polib all 1.1.1-1 [20.8 kB]
+Fetched 20.8 kB in 0s (214 kB/s)
+Selecting previously unselected package python3-polib.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79376 files and directories currently installed.)
+Preparing to unpack .../python3-polib_1.1.1-1_all.deb ...
+Unpacking python3-polib (1.1.1-1) ...
+Setting up python3-polib (1.1.1-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+Suggested packages:
+  python-psutil-doc
+The following NEW packages will be installed:
+  python3-psutil
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 158 kB of archives.
+After this operation, 971 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-psutil amd64 5.9.0-1build1 [158 kB]
+Fetched 158 kB in 1s (196 kB/s)
+Selecting previously unselected package python3-psutil.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79384 files and directories currently installed.)
+Preparing to unpack .../python3-psutil_5.9.0-1build1_amd64.deb ...
+Unpacking python3-psutil (5.9.0-1build1) ...
+Setting up python3-psutil (5.9.0-1build1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+Suggested packages:
+  python-psycopg2-doc
+The following NEW packages will be installed:
+  python3-psycopg2
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 133 kB of archives.
+After this operation, 487 kB of additional disk space will be used.
+Get:1 http://apt.postgresql.org/pub/repos/apt jammy-pgdg/main amd64 python3-psycopg2 amd64 2.9.4-1.pgdg22.04+1 [133 kB]
+Fetched 133 kB in 1s (201 kB/s)
+Selecting previously unselected package python3-psycopg2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79425 files and directories currently installed.)
+Preparing to unpack .../python3-psycopg2_2.9.4-1.pgdg22.04+1_amd64.deb ...
+Unpacking python3-psycopg2 (2.9.4-1.pgdg22.04+1) ...
+Setting up python3-psycopg2 (2.9.4-1.pgdg22.04+1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  fontconfig fontconfig-config fonts-dejavu-core fonts-liberation graphviz
+  libann0 libcairo2 libcdt5 libcgraph6 libdatrie1 libfontconfig1 libgd3
+  libgts-0.7-5 libgts-bin libgvc6 libgvpr2 libice6 liblab-gamut1 libltdl7
+  libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpathplan4
+  libpixman-1-0 libsm6 libthai-data libthai0 libxaw7 libxcb-render0
+  libxcb-shm0 libxmu6 libxpm4 libxrender1 libxt6 x11-common
+Suggested packages:
+  gsfonts graphviz-doc libgd-tools
+The following NEW packages will be installed:
+  fontconfig fontconfig-config fonts-dejavu-core fonts-liberation graphviz
+  libann0 libcairo2 libcdt5 libcgraph6 libdatrie1 libfontconfig1 libgd3
+  libgts-0.7-5 libgts-bin libgvc6 libgvpr2 libice6 liblab-gamut1 libltdl7
+  libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpathplan4
+  libpixman-1-0 libsm6 libthai-data libthai0 libxaw7 libxcb-render0
+  libxcb-shm0 libxmu6 libxpm4 libxrender1 libxt6 python3-pydot x11-common
+0 upgraded, 36 newly installed, 0 to remove and 71 not upgraded.
+Need to get 8246 kB of archives.
+After this operation, 21.5 MB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-dejavu-core all 2.37-2build1 [1041 kB]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-liberation all 1:1.07.4-11 [822 kB]
+Get:3 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig-config all 2.13.1-4.2ubuntu5 [29.1 kB]
+Get:4 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libfontconfig1 amd64 2.13.1-4.2ubuntu5 [131 kB]
+Get:5 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 fontconfig amd64 2.13.1-4.2ubuntu5 [177 kB]
+Get:6 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libann0 amd64 1.1.2+doc-7build1 [26.0 kB]
+Get:7 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libcdt5 amd64 2.42.2-6 [21.1 kB]
+Get:8 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libcgraph6 amd64 2.42.2-6 [45.8 kB]
+Get:9 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libxpm4 amd64 1:3.5.12-1ubuntu0.22.04.1 [36.4 kB]
+Get:10 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libgd3 amd64 2.3.0-2ubuntu2 [129 kB]
+Get:11 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libgts-0.7-5 amd64 0.7.6+darcs121130-5 [164 kB]
+Get:12 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libpixman-1-0 amd64 0.40.0-1ubuntu0.22.04.1 [264 kB]
+Get:13 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-render0 amd64 1.14-3ubuntu3 [16.4 kB]
+Get:14 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libxcb-shm0 amd64 1.14-3ubuntu3 [5780 B]
+Get:15 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libxrender1 amd64 1:0.9.10-1build4 [19.7 kB]
+Get:16 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libcairo2 amd64 1.16.0-5ubuntu2 [628 kB]
+Get:17 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libltdl7 amd64 2.4.6-15build2 [39.6 kB]
+Get:18 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libthai-data all 0.1.29-1build1 [162 kB]
+Get:19 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libdatrie1 amd64 0.2.13-2 [19.9 kB]
+Get:20 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libthai0 amd64 0.1.29-1build1 [19.2 kB]
+Get:21 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libpango-1.0-0 amd64 1.50.6+ds-2 [230 kB]
+Get:22 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libpangoft2-1.0-0 amd64 1.50.6+ds-2 [53.9 kB]
+Get:23 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libpangocairo-1.0-0 amd64 1.50.6+ds-2 [39.8 kB]
+Get:24 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libpathplan4 amd64 2.42.2-6 [23.5 kB]
+Get:25 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libgvc6 amd64 2.42.2-6 [726 kB]
+Get:26 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libgvpr2 amd64 2.42.2-6 [191 kB]
+Get:27 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 liblab-gamut1 amd64 2.42.2-6 [1964 kB]
+Get:28 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 x11-common all 1:7.7+23ubuntu2 [23.4 kB]
+Get:29 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libice6 amd64 2:1.0.10-1build2 [42.6 kB]
+Get:30 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libsm6 amd64 2:1.2.3-1build2 [16.7 kB]
+Get:31 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libxt6 amd64 1:1.2.1-1 [177 kB]
+Get:32 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libxmu6 amd64 2:1.1.3-3 [49.6 kB]
+Get:33 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libxaw7 amd64 2:1.0.14-1 [191 kB]
+Get:34 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 graphviz amd64 2.42.2-6 [650 kB]
+Get:35 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libgts-bin amd64 0.7.6+darcs121130-5 [44.3 kB]
+Get:36 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pydot all 1.4.2-1build1 [25.8 kB]
+Fetched 8246 kB in 4s (2240 kB/s)
+Selecting previously unselected package fonts-dejavu-core.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79445 files and directories currently installed.)
+Preparing to unpack .../00-fonts-dejavu-core_2.37-2build1_all.deb ...
+Unpacking fonts-dejavu-core (2.37-2build1) ...
+Selecting previously unselected package fonts-liberation.
+Preparing to unpack .../01-fonts-liberation_1%3a1.07.4-11_all.deb ...
+Unpacking fonts-liberation (1:1.07.4-11) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../02-fontconfig-config_2.13.1-4.2ubuntu5_all.deb ...
+Unpacking fontconfig-config (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../03-libfontconfig1_2.13.1-4.2ubuntu5_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package fontconfig.
+Preparing to unpack .../04-fontconfig_2.13.1-4.2ubuntu5_amd64.deb ...
+Unpacking fontconfig (2.13.1-4.2ubuntu5) ...
+Selecting previously unselected package libann0.
+Preparing to unpack .../05-libann0_1.1.2+doc-7build1_amd64.deb ...
+Unpacking libann0 (1.1.2+doc-7build1) ...
+Selecting previously unselected package libcdt5:amd64.
+Preparing to unpack .../06-libcdt5_2.42.2-6_amd64.deb ...
+Unpacking libcdt5:amd64 (2.42.2-6) ...
+Selecting previously unselected package libcgraph6:amd64.
+Preparing to unpack .../07-libcgraph6_2.42.2-6_amd64.deb ...
+Unpacking libcgraph6:amd64 (2.42.2-6) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../08-libxpm4_1%3a3.5.12-1ubuntu0.22.04.1_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.1) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../09-libgd3_2.3.0-2ubuntu2_amd64.deb ...
+Unpacking libgd3:amd64 (2.3.0-2ubuntu2) ...
+Selecting previously unselected package libgts-0.7-5:amd64.
+Preparing to unpack .../10-libgts-0.7-5_0.7.6+darcs121130-5_amd64.deb ...
+Unpacking libgts-0.7-5:amd64 (0.7.6+darcs121130-5) ...
+Selecting previously unselected package libpixman-1-0:amd64.
+Preparing to unpack .../11-libpixman-1-0_0.40.0-1ubuntu0.22.04.1_amd64.deb ...
+Unpacking libpixman-1-0:amd64 (0.40.0-1ubuntu0.22.04.1) ...
+Selecting previously unselected package libxcb-render0:amd64.
+Preparing to unpack .../12-libxcb-render0_1.14-3ubuntu3_amd64.deb ...
+Unpacking libxcb-render0:amd64 (1.14-3ubuntu3) ...
+Selecting previously unselected package libxcb-shm0:amd64.
+Preparing to unpack .../13-libxcb-shm0_1.14-3ubuntu3_amd64.deb ...
+Unpacking libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+Selecting previously unselected package libxrender1:amd64.
+Preparing to unpack .../14-libxrender1_1%3a0.9.10-1build4_amd64.deb ...
+Unpacking libxrender1:amd64 (1:0.9.10-1build4) ...
+Selecting previously unselected package libcairo2:amd64.
+Preparing to unpack .../15-libcairo2_1.16.0-5ubuntu2_amd64.deb ...
+Unpacking libcairo2:amd64 (1.16.0-5ubuntu2) ...
+Selecting previously unselected package libltdl7:amd64.
+Preparing to unpack .../16-libltdl7_2.4.6-15build2_amd64.deb ...
+Unpacking libltdl7:amd64 (2.4.6-15build2) ...
+Selecting previously unselected package libthai-data.
+Preparing to unpack .../17-libthai-data_0.1.29-1build1_all.deb ...
+Unpacking libthai-data (0.1.29-1build1) ...
+Selecting previously unselected package libdatrie1:amd64.
+Preparing to unpack .../18-libdatrie1_0.2.13-2_amd64.deb ...
+Unpacking libdatrie1:amd64 (0.2.13-2) ...
+Selecting previously unselected package libthai0:amd64.
+Preparing to unpack .../19-libthai0_0.1.29-1build1_amd64.deb ...
+Unpacking libthai0:amd64 (0.1.29-1build1) ...
+Selecting previously unselected package libpango-1.0-0:amd64.
+Preparing to unpack .../20-libpango-1.0-0_1.50.6+ds-2_amd64.deb ...
+Unpacking libpango-1.0-0:amd64 (1.50.6+ds-2) ...
+Selecting previously unselected package libpangoft2-1.0-0:amd64.
+Preparing to unpack .../21-libpangoft2-1.0-0_1.50.6+ds-2_amd64.deb ...
+Unpacking libpangoft2-1.0-0:amd64 (1.50.6+ds-2) ...
+Selecting previously unselected package libpangocairo-1.0-0:amd64.
+Preparing to unpack .../22-libpangocairo-1.0-0_1.50.6+ds-2_amd64.deb ...
+Unpacking libpangocairo-1.0-0:amd64 (1.50.6+ds-2) ...
+Selecting previously unselected package libpathplan4:amd64.
+Preparing to unpack .../23-libpathplan4_2.42.2-6_amd64.deb ...
+Unpacking libpathplan4:amd64 (2.42.2-6) ...
+Selecting previously unselected package libgvc6.
+Preparing to unpack .../24-libgvc6_2.42.2-6_amd64.deb ...
+Unpacking libgvc6 (2.42.2-6) ...
+Selecting previously unselected package libgvpr2:amd64.
+Preparing to unpack .../25-libgvpr2_2.42.2-6_amd64.deb ...
+Unpacking libgvpr2:amd64 (2.42.2-6) ...
+Selecting previously unselected package liblab-gamut1:amd64.
+Preparing to unpack .../26-liblab-gamut1_2.42.2-6_amd64.deb ...
+Unpacking liblab-gamut1:amd64 (2.42.2-6) ...
+Selecting previously unselected package x11-common.
+Preparing to unpack .../27-x11-common_1%3a7.7+23ubuntu2_all.deb ...
+Unpacking x11-common (1:7.7+23ubuntu2) ...
+Selecting previously unselected package libice6:amd64.
+Preparing to unpack .../28-libice6_2%3a1.0.10-1build2_amd64.deb ...
+Unpacking libice6:amd64 (2:1.0.10-1build2) ...
+Selecting previously unselected package libsm6:amd64.
+Preparing to unpack .../29-libsm6_2%3a1.2.3-1build2_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.3-1build2) ...
+Selecting previously unselected package libxt6:amd64.
+Preparing to unpack .../30-libxt6_1%3a1.2.1-1_amd64.deb ...
+Unpacking libxt6:amd64 (1:1.2.1-1) ...
+Selecting previously unselected package libxmu6:amd64.
+Preparing to unpack .../31-libxmu6_2%3a1.1.3-3_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3) ...
+Selecting previously unselected package libxaw7:amd64.
+Preparing to unpack .../32-libxaw7_2%3a1.0.14-1_amd64.deb ...
+Unpacking libxaw7:amd64 (2:1.0.14-1) ...
+Selecting previously unselected package graphviz.
+Preparing to unpack .../33-graphviz_2.42.2-6_amd64.deb ...
+Unpacking graphviz (2.42.2-6) ...
+Selecting previously unselected package libgts-bin.
+Preparing to unpack .../34-libgts-bin_0.7.6+darcs121130-5_amd64.deb ...
+Unpacking libgts-bin (0.7.6+darcs121130-5) ...
+Selecting previously unselected package python3-pydot.
+Preparing to unpack .../35-python3-pydot_1.4.2-1build1_all.deb ...
+Unpacking python3-pydot (1.4.2-1build1) ...
+Setting up libpixman-1-0:amd64 (0.40.0-1ubuntu0.22.04.1) ...
+Setting up libxpm4:amd64 (1:3.5.12-1ubuntu0.22.04.1) ...
+Setting up libxrender1:amd64 (1:0.9.10-1build4) ...
+Setting up libdatrie1:amd64 (0.2.13-2) ...
+Setting up libxcb-render0:amd64 (1.14-3ubuntu3) ...
+Setting up liblab-gamut1:amd64 (2.42.2-6) ...
+Setting up x11-common (1:7.7+23ubuntu2) ...
+Setting up libxcb-shm0:amd64 (1.14-3ubuntu3) ...
+Setting up libgts-0.7-5:amd64 (0.7.6+darcs121130-5) ...
+Setting up libpathplan4:amd64 (2.42.2-6) ...
+Setting up libann0 (1.1.2+doc-7build1) ...
+Setting up fonts-dejavu-core (2.37-2build1) ...
+Setting up libltdl7:amd64 (2.4.6-15build2) ...
+Setting up fonts-liberation (1:1.07.4-11) ...
+Setting up libthai-data (0.1.29-1build1) ...
+Setting up libcdt5:amd64 (2.42.2-6) ...
+Setting up libcgraph6:amd64 (2.42.2-6) ...
+Setting up libgts-bin (0.7.6+darcs121130-5) ...
+Setting up libice6:amd64 (2:1.0.10-1build2) ...
+Setting up fontconfig-config (2.13.1-4.2ubuntu5) ...
+Setting up libthai0:amd64 (0.1.29-1build1) ...
+Setting up libgvpr2:amd64 (2.42.2-6) ...
+Setting up libsm6:amd64 (2:1.2.3-1build2) ...
+Setting up libxt6:amd64 (1:1.2.1-1) ...
+Setting up libxmu6:amd64 (2:1.1.3-3) ...
+Setting up libxaw7:amd64 (2:1.0.14-1) ...
+Processing triggers for sgml-base (1.30) ...
+Setting up libfontconfig1:amd64 (2.13.1-4.2ubuntu5) ...
+Setting up fontconfig (2.13.1-4.2ubuntu5) ...
+Regenerating fonts cache... done.
+Processing triggers for libc-bin (2.35-0ubuntu3) ...
+Setting up libpango-1.0-0:amd64 (1.50.6+ds-2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Setting up libcairo2:amd64 (1.16.0-5ubuntu2) ...
+Setting up libgd3:amd64 (2.3.0-2ubuntu2) ...
+Setting up libpangoft2-1.0-0:amd64 (1.50.6+ds-2) ...
+Setting up libpangocairo-1.0-0:amd64 (1.50.6+ds-2) ...
+Setting up libgvc6 (2.42.2-6) ...
+Setting up graphviz (2.42.2-6) ...
+Setting up python3-pydot (1.4.2-1build1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-pyparsing is already the newest version (2.4.7-1).
+python3-pyparsing set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-pypdf2
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 49.4 kB of archives.
+After this operation, 263 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-pypdf2 all 1.26.0-4 [49.4 kB]
+Fetched 49.4 kB in 0s (282 kB/s)
+Selecting previously unselected package python3-pypdf2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79949 files and directories currently installed.)
+Preparing to unpack .../python3-pypdf2_1.26.0-4_all.deb ...
+Unpacking python3-pypdf2 (1.26.0-4) ...
+Setting up python3-pypdf2 (1.26.0-4) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-qrcode
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 36.8 kB of archives.
+After this operation, 170 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-qrcode all 7.3.1-1 [36.8 kB]
+Fetched 36.8 kB in 0s (319 kB/s)
+Selecting previously unselected package python3-qrcode.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 79969 files and directories currently installed.)
+Preparing to unpack .../python3-qrcode_7.3.1-1_all.deb ...
+Unpacking python3-qrcode (7.3.1-1) ...
+Setting up python3-qrcode (7.3.1-1) ...
+update-alternatives: using /usr/bin/python3-qr to provide /usr/bin/qr (qr) in auto mode
+Processing triggers for man-db (2.10.2-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  fonts-urw-base35 python3-renderpm python3-reportlab-accel
+Suggested packages:
+  fonts-freefont-otf | fonts-freefont-ttf fonts-texgyre pdf-viewer
+  python3-egenix-mxtexttools python-reportlab-doc
+The following NEW packages will be installed:
+  fonts-urw-base35 python3-renderpm python3-reportlab python3-reportlab-accel
+0 upgraded, 4 newly installed, 0 to remove and 71 not upgraded.
+Need to get 7011 kB of archives.
+After this operation, 14.6 MB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 fonts-urw-base35 all 20200910-1 [6367 kB]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-renderpm amd64 3.6.8-1 [64.6 kB]
+Get:3 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-reportlab-accel amd64 3.6.8-1 [20.3 kB]
+Get:4 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-reportlab all 3.6.8-1 [559 kB]
+Fetched 7011 kB in 1s (8528 kB/s)
+Selecting previously unselected package fonts-urw-base35.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 80011 files and directories currently installed.)
+Preparing to unpack .../fonts-urw-base35_20200910-1_all.deb ...
+Unpacking fonts-urw-base35 (20200910-1) ...
+Selecting previously unselected package python3-renderpm:amd64.
+Preparing to unpack .../python3-renderpm_3.6.8-1_amd64.deb ...
+Unpacking python3-renderpm:amd64 (3.6.8-1) ...
+Selecting previously unselected package python3-reportlab-accel:amd64.
+Preparing to unpack .../python3-reportlab-accel_3.6.8-1_amd64.deb ...
+Unpacking python3-reportlab-accel:amd64 (3.6.8-1) ...
+Selecting previously unselected package python3-reportlab.
+Preparing to unpack .../python3-reportlab_3.6.8-1_all.deb ...
+Unpacking python3-reportlab (3.6.8-1) ...
+Setting up fonts-urw-base35 (20200910-1) ...
+Setting up python3-reportlab-accel:amd64 (3.6.8-1) ...
+Setting up python3-reportlab (3.6.8-1) ...
+Setting up python3-renderpm:amd64 (3.6.8-1) ...
+Processing triggers for fontconfig (2.13.1-4.2ubuntu5) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-requests is already the newest version (2.25.1+dfsg-2).
+python3-requests set to manually installed.
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 71 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+Suggested packages:
+  python3-zeep | python3-pysimplesoap python-stdnum-doc
+The following NEW packages will be installed:
+  python3-stdnum
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 601 kB of archives.
+After this operation, 2936 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-stdnum all 1.17-1 [601 kB]
+Fetched 601 kB in 0s (2516 kB/s)
+Selecting previously unselected package python3-stdnum.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 80336 files and directories currently installed.)
+Preparing to unpack .../python3-stdnum_1.17-1_all.deb ...
+Unpacking python3-stdnum (1.17-1) ...
+Setting up python3-stdnum (1.17-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-suds
+0 upgraded, 1 newly installed, 0 to remove and 71 not upgraded.
+Need to get 135 kB of archives.
+After this operation, 587 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-suds all 1.0.0-1 [135 kB]
+Fetched 135 kB in 0s (890 kB/s)
+Selecting previously unselected package python3-suds.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 80725 files and directories currently installed.)
+Preparing to unpack .../python3-suds_1.0.0-1_all.deb ...
+Unpacking python3-suds (1.0.0-1) ...
+Setting up python3-suds (1.0.0-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following packages will be upgraded:
+  python3-tz
+1 upgraded, 0 newly installed, 0 to remove and 70 not upgraded.
+Need to get 33.4 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-tz all 2022.1-1ubuntu0.22.04.0 [33.4 kB]
+Fetched 33.4 kB in 0s (285 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 80799 files and directories currently installed.)
+Preparing to unpack .../python3-tz_2022.1-1ubuntu0.22.04.0_all.deb ...
+Unpacking python3-tz (2022.1-1ubuntu0.22.04.0) over (2022.1-1) ...
+Setting up python3-tz (2022.1-1ubuntu0.22.04.0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-vobject
+0 upgraded, 1 newly installed, 0 to remove and 70 not upgraded.
+Need to get 41.4 kB of archives.
+After this operation, 196 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-vobject all 0.9.6.1-0.2 [41.4 kB]
+Fetched 41.4 kB in 0s (346 kB/s)
+Selecting previously unselected package python3-vobject.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 80799 files and directories currently installed.)
+Preparing to unpack .../python3-vobject_0.9.6.1-0.2_all.deb ...
+Unpacking python3-vobject (0.9.6.1-0.2) ...
+Setting up python3-vobject (0.9.6.1-0.2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  python3-pyinotify
+Suggested packages:
+  python-pyinotify-doc ipython3 python-werkzeug-doc python3-watchdog
+The following NEW packages will be installed:
+  python3-pyinotify python3-werkzeug
+0 upgraded, 2 newly installed, 0 to remove and 70 not upgraded.
+Need to get 205 kB of archives.
+After this operation, 1010 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-pyinotify all 0.9.6-1.3 [24.8 kB]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-werkzeug all 2.0.2+dfsg1-1 [180 kB]
+Fetched 205 kB in 0s (781 kB/s)
+Selecting previously unselected package python3-pyinotify.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 80820 files and directories currently installed.)
+Preparing to unpack .../python3-pyinotify_0.9.6-1.3_all.deb ...
+Unpacking python3-pyinotify (0.9.6-1.3) ...
+Selecting previously unselected package python3-werkzeug.
+Preparing to unpack .../python3-werkzeug_2.0.2+dfsg1-1_all.deb ...
+Unpacking python3-werkzeug (2.0.2+dfsg1-1) ...
+Setting up python3-pyinotify (0.9.6-1.3) ...
+Setting up python3-werkzeug (2.0.2+dfsg1-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-xlsxwriter
+0 upgraded, 1 newly installed, 0 to remove and 70 not upgraded.
+Need to get 213 kB of archives.
+After this operation, 1201 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-xlsxwriter all 3.0.2-2 [213 kB]
+Fetched 213 kB in 0s (958 kB/s)
+Selecting previously unselected package python3-xlsxwriter.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 80896 files and directories currently installed.)
+Preparing to unpack .../python3-xlsxwriter_3.0.2-2_all.deb ...
+Unpacking python3-xlsxwriter (3.0.2-2) ...
+Setting up python3-xlsxwriter (3.0.2-2) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-xlrd
+0 upgraded, 1 newly installed, 0 to remove and 70 not upgraded.
+Need to get 90.6 kB of archives.
+After this operation, 473 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-xlrd all 1.2.0-2 [90.6 kB]
+Fetched 90.6 kB in 1s (161 kB/s)
+Selecting previously unselected package python3-xlrd.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81042 files and directories currently installed.)
+Preparing to unpack .../python3-xlrd_1.2.0-2_all.deb ...
+Unpacking python3-xlrd (1.2.0-2) ...
+Setting up python3-xlrd (1.2.0-2) ...
+Processing triggers for man-db (2.10.2-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-ldap
+0 upgraded, 1 newly installed, 0 to remove and 70 not upgraded.
+Need to get 95.0 kB of archives.
+After this operation, 416 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy-updates/main amd64 python3-ldap amd64 3.2.0-4ubuntu7.1 [95.0 kB]
+Fetched 95.0 kB in 0s (582 kB/s)
+Selecting previously unselected package python3-ldap:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81066 files and directories currently installed.)
+Preparing to unpack .../python3-ldap_3.2.0-4ubuntu7.1_amd64.deb ...
+Unpacking python3-ldap:amd64 (3.2.0-4ubuntu7.1) ...
+Setting up python3-ldap:amd64 (3.2.0-4ubuntu7.1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  apport-symptoms python3-apport python3-problem-report python3-systemd
+Use 'apt autoremove' to remove them.
+The following additional packages will be installed:
+  libc-ares2 libev4 python3-greenlet python3-zope.event
+Suggested packages:
+  python-gevent-doc python-greenlet-dev python-greenlet-doc
+The following NEW packages will be installed:
+  libc-ares2 libev4 python3-gevent python3-greenlet python3-zope.event
+0 upgraded, 5 newly installed, 0 to remove and 70 not upgraded.
+Need to get 939 kB of archives.
+After this operation, 3877 kB of additional disk space will be used.
+Get:1 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-zope.event all 4.4-3 [8180 B]
+Get:2 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 libc-ares2 amd64 1.18.1-1build1 [44.9 kB]
+Get:3 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 libev4 amd64 1:4.33-1 [29.4 kB]
+Get:4 http://be.archive.ubuntu.com/ubuntu jammy/main amd64 python3-greenlet amd64 1.1.2-3build1 [65.0 kB]
+Get:5 http://be.archive.ubuntu.com/ubuntu jammy/universe amd64 python3-gevent amd64 21.8.0-1build1 [792 kB]
+Fetched 939 kB in 1s (947 kB/s)
+Selecting previously unselected package python3-zope.event.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 81134 files and directories currently installed.)
+Preparing to unpack .../python3-zope.event_4.4-3_all.deb ...
+Unpacking python3-zope.event (4.4-3) ...
+Selecting previously unselected package libc-ares2:amd64.
+Preparing to unpack .../libc-ares2_1.18.1-1build1_amd64.deb ...
+Unpacking libc-ares2:amd64 (1.18.1-1build1) ...
+Selecting previously unselected package libev4:amd64.
+Preparing to unpack .../libev4_1%3a4.33-1_amd64.deb ...
+Unpacking libev4:amd64 (1:4.33-1) ...
+Selecting previously unselected package python3-greenlet.
+Preparing to unpack .../python3-greenlet_1.1.2-3build1_amd64.deb ...
+Unpacking python3-greenlet (1.1.2-3build1) ...
+Selecting previously unselected package python3-gevent.
+Preparing to unpack .../python3-gevent_21.8.0-1build1_amd64.deb ...
+Unpacking python3-gevent (21.8.0-1build1) ...
+Setting up python3-zope.event (4.4-3) ...
+Setting up libev4:amd64 (1:4.33-1) ...
+Setting up libc-ares2:amd64 (1.18.1-1build1) ...
+Setting up python3-greenlet (1.1.2-3build1) ...
+Setting up python3-gevent (21.8.0-1build1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3) ...

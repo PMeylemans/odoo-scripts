@@ -70,8 +70,8 @@ apt-get install python3-suds -y
 sleep $freeze
 apt-get install python3-tz -y
 sleep $freeze
-apt-get install python3-vatnumber -y
-sleep $freeze
+#apt-get install python3-vatnumber -y
+#sleep $freeze
 apt-get install python3-vobject -y
 sleep $freeze
 apt-get install python3-werkzeug -y
