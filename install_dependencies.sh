@@ -83,3 +83,5 @@ sleep $freeze
 apt-get install python3-ldap -y 
 sleep $freeze
 apt-get install python3-gevent -y             
+sleep $freeze
+apt-get install python3-freezegun -y
