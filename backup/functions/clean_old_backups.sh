@@ -6,5 +6,5 @@ clean_old_backups(){
 	#echo $age
 	#echo $bck_dir
 	#result=`find ${bck_dir} -type f -mtime ${age} -name "*.gz" -delete`
-	find ${bck_dir} -type f -cmin ${age} -name "*.gz" -delete
+	find ${bck_dir} -type f -cmin ${age} -name "*.dmp" -delete
 }
