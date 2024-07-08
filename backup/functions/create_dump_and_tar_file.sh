@@ -15,15 +15,20 @@ create_dump_and_tar_file (){
 	#
 
 	Time_stamp="$(date +%F)_$(date +%H-%M-%S)"
-	full_dump_name="$backup_dir$db_name-$Time_stamp.dmp.gz"
+	#full_dump_name="$backup_dir$db_name-$Time_stamp.dmp.gz"
+	full_dump_name="$backup_dir$db_name-$Time_stamp.dmp"
 	full_tar_name="$backup_dir$db_name-$Time_stamp.tar.gz"
 	
-	# Create the dumpfile
+	directory="$(dirname "$0")"
+	source $directory/functions/sync_filestore.sh
+
+        # Create the dumpfile
 	#
 	# MEY 2022-11-04 Add some --exclude-table-data arguments to the dump command
 	
 	#dump_result=`pg_dump ${db_name} | gzip > ${full_dump_name}`
-	dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' | gzip > ${full_dump_name}`
+	#dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' | gzip > ${full_dump_name}`
+	dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' > ${full_dump_name}`
 
 	# Check if the target file location exist (only the case with odoo databases)
 	# If the directory exist make tarfile with the -C option for easy restore operation
@@ -33,7 +38,8 @@ create_dump_and_tar_file (){
 	then
 		#echo "the directory $odoo_files_location exsists"
 	        #echo $full_tar_name	
-		tar_result=`tar cf ${full_tar_name} --gzip -C ${odoo_files_location} .`
+		#tar_result=`tar cf ${full_tar_name} --gzip -C ${odoo_files_location} .`
+		sync_filestore "$db_name" "$backup_dir" "$odoo_files_location"
 	fi
 
 	#echo $db_name

@@ -8,6 +8,7 @@
 # 2020-01-22 MEY created
 # 2020-01-23 MEY adapted, use the directory function (location scripts)
 # 2020-01-30 MEY add the function to dump the globals of postgresql database
+# 2024-07-08 MEY add sync of odoo data instead of tar & zip
 # ---------------------------------------------------------------------
 
 # Get the location of this script, used files are relative to this directory
@@ -23,6 +24,7 @@ source $directory/backup.conf
 source $directory/functions/create_dump_and_tar_file.sh
 source $directory/functions/clean_old_backups.sh
 source $directory/functions/dump_globals.sh
+source $directory/functions/sync_filestore.sh
 
 # Get the list of the databases on the system
 #
