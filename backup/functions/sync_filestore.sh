@@ -22,6 +22,6 @@ diff_dir=$2/filestore/$database'-diff:'$suffix
 # Execute the command 
 
 #rsync -av --delete --backup --suffix=".$suffix" --backup-dir="$backup_dir" "$source" "$target"
-rsync -av --delete  --backup --backup-dir=$diff_dir "$source" "$backup_dir"
+rsync -a --delete  --backup --backup-dir=$diff_dir "$source" "$backup_dir"
 
 }
