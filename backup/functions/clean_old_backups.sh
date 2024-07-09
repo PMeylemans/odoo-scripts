@@ -2,6 +2,7 @@ clean_old_backups(){
 	age=$1
 	age="+$age"
 	bck_dir=$2
+	sync_dir="$2/filestore/"
 
 	#echo $age
 	#echo $bck_dir
