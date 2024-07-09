@@ -7,4 +7,5 @@ clean_old_backups(){
 	#echo $bck_dir
 	#result=`find ${bck_dir} -type f -mtime ${age} -name "*.gz" -delete`
 	find ${bck_dir} -type f -cmin ${age} -name "*.dmp" -delete
+	find ${sync_dir} -maxdepth 1 -type d -cmin ${age} -name "*diff:*" -exec rm -r {} \;
 }
