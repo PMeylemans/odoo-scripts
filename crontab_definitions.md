@@ -1,6 +1,7 @@
 Here are the definitions to be created in the cronab of the respectively machines and accounts
 
-|Server	            |User	 |Cron	                                                     |What	                                                 |Description                                               |
+| Server	        | User	 | Cron	                                                     | What	                                                 | Description                                              |
+|:------------------|:-------|:----------------------------------------------------------|:------------------------------------------------------|:---------------------------------------------------------|
 |odoo.sirris.be	    |root	 |                                                           |                                                       |                                                          |
 |                   |        |5 * * * * /users/cron/scripts/create_odoo_login_data.sh	 |Extract successful and failed login attempts in Odoo	 |Files created are synchronized to Crystal -> datamatrix dB|
 |Crystal.sirris.be	|root	 |                                                           |                                                       |                                                          |
