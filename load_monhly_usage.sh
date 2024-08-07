@@ -1,0 +1,42 @@
+#! /bin/bash
+
+# Filename:	load_monthly_usage.sh
+#
+# Purpose:      load the monthly mobile phone usage file into the database	
+#
+# History:	
+# 2024-08-02	MEY created
+# ----------------------------------------------------------------------------------------------------------------------------
+
+# Initialize and read parameters from config file
+# -----------------------------------------------
+directory="$(dirname "$0")"
+source $directory/mobile_phone.conf
+
+# Test if the source file exists
+# ------------------------------
+
+if [ -f "$data_location/$excel_source" ]; then
+  echo "File exists."
+  echo "convertion and import will start"
+  xlsx2csv  $data_location/$excel_source > $data_location/$csv_source
+ 
+else
+  echo "File does not exist."
+  echo "Please provide the correct input file see the readme.txt file"
+  exit 0;
+fi
+
+
+# Load the data into the database
+# -------------------------------
+
+psql -d $database_name -c "\\COPY $table_name(Year,Month,Phone_nr,Reference,First_name,Name,Company,Dep1,Dep2,Fees,Calls,Duration,Duration_sec,Messages,Kbytes,Amount) FROM '$data_location/$csv_source' DELIMITER ',' CSV"
+
+# Cleanup the data
+# ----------------
+
+rm $data_location/$excel_source
+rm $data_location/$csv_source
+
+
