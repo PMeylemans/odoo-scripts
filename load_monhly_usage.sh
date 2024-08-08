@@ -6,6 +6,7 @@
 #
 # History:	
 # 2024-08-02	MEY created
+# 2024-08-08    MEY adapted, we now use gnumeric to converts xlxs to csv to avoid power notations for small numbers
 # ----------------------------------------------------------------------------------------------------------------------------
 
 # Initialize and read parameters from config file
@@ -19,8 +20,9 @@ source $directory/mobile_phone.conf
 if [ -f "$data_location/$excel_source" ]; then
   echo "File exists."
   echo "convertion and import will start"
-  xlsx2csv  $data_location/$excel_source > $data_location/$csv_source
- 
+# MEY 2024-08-08  
+#  xlsx2csv  $data_location/$excel_source > $data_location/$csv_source
+  ssconvert --export-type=Gnumeric_stf:stf_csv $data_location/$excel_source $data_location/$csv_source
 else
   echo "File does not exist."
   echo "Please provide the correct input file see the readme.txt file"

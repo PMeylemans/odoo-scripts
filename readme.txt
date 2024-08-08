@@ -9,3 +9,9 @@ Put this file "source.xlsx" in the target directory on the correct sever
 For this see the file "mobile_phone.conf"
 
 Start the script to import the data "load_monhly_usage.sh"
+
+Issues with small numbers represented in power notations (E-xx) force us to use gnumeric
+# apt install gnumeric
+
+The converion will be
+$ ssconvert --export-type=Gnumeric_stf:stf_csv input.xlsx output.csv
