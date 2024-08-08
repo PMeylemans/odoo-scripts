@@ -44,5 +44,7 @@ psql -d $database_name -c "\\COPY $table_name(Year,Month,Phone_nr,Reference,Firs
 
 rm $data_location/$excel_source
 rm $data_location/$csv_source
+rm $data_location/$csv_source_temp
+
 
 
