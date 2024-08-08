@@ -22,7 +22,11 @@ if [ -f "$data_location/$excel_source" ]; then
   echo "convertion and import will start"
 # MEY 2024-08-08  
 #  xlsx2csv  $data_location/$excel_source > $data_location/$csv_source
-  ssconvert --export-type=Gnumeric_stf:stf_csv $data_location/$excel_source $data_location/$csv_source
+  ssconvert --export-type=Gnumeric_stf:stf_csv  $data_location/$excel_source $data_location/$csv_source_temp
+
+# Convert possible power notation to numeric values
+awk 'BEGIN{FS=OFS=","} {for(i=1;i<=NF;i++) if($i ~ /^[0-9]+(\.[0-9]+)?(e|E)[+-]?[0-9]+$/) $i=sprintf("%.15f", $i)} 1' $data_location/$csv_source_temp > $data_location/$csv_source
+
 else
   echo "File does not exist."
   echo "Please provide the correct input file see the readme.txt file"
