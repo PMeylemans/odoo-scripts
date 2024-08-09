@@ -7,6 +7,7 @@
 # History:	
 # 2024-08-02	MEY created
 # 2024-08-08    MEY adapted, we now use gnumeric to converts xlxs to csv to avoid power notations for small numbers
+# 2024-08-09    MEY adapted, add the field account_net and fill it up (discount)
 # ----------------------------------------------------------------------------------------------------------------------------
 
 # Initialize and read parameters from config file
@@ -39,12 +40,15 @@ fi
 
 psql -d $database_name -c "\\COPY $table_name(Year,Month,Phone_nr,Reference,First_name,Name,Company,Dep1,Dep2,Fees,Calls,Duration,Duration_sec,Messages,Kbytes,Amount) FROM '$data_location/$csv_source' DELIMITER ',' CSV"
 
+# Calculate the amount_net (take the discount into account)
+# ---------------------------------------------------------
+
+psql -d $database_name -c "UPDATE $table_name SET amount_net = CAST(TRIM(TRAILING '0' FROM CAST(amount * (100-$discount)/100 AS VARCHAR)) AS NUMERIC) WHERE amount_net is NULL"
+
 # Cleanup the data
 # ----------------
 
 rm $data_location/$excel_source
 rm $data_location/$csv_source
 rm $data_location/$csv_source_temp
-
-
 

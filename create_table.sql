@@ -14,6 +14,7 @@ CREATE TABLE monthly_mobile_phone_costs (
     Duration_sec    INTEGER,
     Messages        INTEGER,
     Kbytes          NUMERIC,
-    Amount          NUMERIC
+    Amount          NUMERIC,
+    Amount_net      NUMERIC
 );
 
