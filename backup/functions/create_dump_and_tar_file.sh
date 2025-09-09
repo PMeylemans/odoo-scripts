@@ -30,7 +30,7 @@ create_dump_and_tar_file (){
 	#dump_result=`pg_dump ${db_name} | gzip > ${full_dump_name}`
 	#dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' | gzip > ${full_dump_name}`
 	#dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' > ${full_dump_name}`
-	dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' --exclude-table-data='sirris_company_nace_code_search' --exclude-table-data='sirris_import_contact_contact_link_contact_wizard' --exclude-table-data='sirris_kbo_bce_company_and_kbo_bce_nace_code_rel' --exlcude-table-data='sirris_res_partner_company_wizard' --exclude-table-data='sirris_res_partner_validation_wizard' > ${full_dump_name}`
+	dump_result=`pg_dump ${db_name} --exclude-table-data='crystal\*' --exclude-table-data='sirris_kbo*' --exclude-table-data='tbl*' --exclude-table-data='sirris_company_nace_code_search' --exclude-table-data='sirris_import_contact_contact_link_contact_wizard' --exclude-table-data='sirris_kbo_bce_company_and_kbo_bce_nace_code_rel' --exclude-table-data='sirris_res_partner_company_wizard' --exclude-table-data='sirris_res_partner_validation_wizard' > ${full_dump_name}`
 
 	# Check if the target file location exist (only the case with odoo databases)
 	# If the directory exist make tarfile with the -C option for easy restore operation
