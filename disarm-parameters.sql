@@ -4,6 +4,7 @@ Purpose  : To make a Odoo database copy stop sending and receiving mails and rem
 History  :
 20210602   MEY adapted, from now on we delete the definition of the mailservers instead of setting them inactive
 20210707   MEY adapted, remove 2FA by setting totp_secret to null on res_users
+20251013   MEY adapted, Changed Peppol from prod to demo
 */
 delete from ir_mail_server;
 delete from fetchmail_server;
@@ -15,6 +16,7 @@ update ir_config_parameter set value='http://odoodebug.sirris.be' where key='web
 update ir_config_parameter set value='DEBUG' where key='ribbon.name';
 update ir_config_parameter set value='rgba(0,255,255,.6)' where key='ribbon.background.color';
 update ir_config_parameter set value='https://crystalxxx.sirris.be/crystal11' where key='sirris_crystal_web_root';
+update ir_config_parameter set value='demo' where key='account_peppol.edi.mode';
 delete from ir_config_parameter where key='database.expiration_date';
 delete from ir_config_parameter where key='database.expiration_reason';
 delete from ir_config_parameter where key='database.enterprise_code';
